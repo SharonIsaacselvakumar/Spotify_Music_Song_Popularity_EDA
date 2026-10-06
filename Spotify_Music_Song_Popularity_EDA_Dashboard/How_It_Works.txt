@@ -1,0 +1,25 @@
+HOW THE DASHBOARD WORKS
+
+1. The CSV file is loaded using Pandas.
+2. Missing numerical values are cleaned using median values.
+3. Streamlit creates the dashboard interface.
+4. The sidebar provides filters for:
+   - Genre
+   - Release year
+   - Popularity range
+5. KPI cards update according to the selected filters.
+6. Overview tab shows popularity distribution and average popularity by year.
+7. Genre Analysis tab compares genres by popularity and song count.
+8. Feature Analysis tab lets the user select an audio feature and see its relationship with popularity.
+9. Top Songs tab displays the most popular songs and a comparison chart.
+10. All charts update when filters are changed.
+
+TECHNOLOGIES:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Streamlit
+
+WHY USE A DASHBOARD?
+A dashboard makes the EDA results interactive. Instead of showing only fixed charts, the user can change filters and immediately explore different parts of the dataset.
